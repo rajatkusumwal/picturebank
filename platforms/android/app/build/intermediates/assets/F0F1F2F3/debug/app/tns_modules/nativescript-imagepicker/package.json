@@ -1,0 +1,121 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-imagepicker@~4.0.1",
+        "scope": null,
+        "escapedName": "nativescript-imagepicker",
+        "name": "nativescript-imagepicker",
+        "rawSpec": "~4.0.1",
+        "spec": ">=4.0.1 <4.1.0",
+        "type": "range"
+      },
+      "C:\\Workspace\\digihack\\picturebank\\node_modules\\tns-template-master-detail-ng"
+    ]
+  ],
+  "_from": "nativescript-imagepicker@>=4.0.1 <4.1.0",
+  "_id": "nativescript-imagepicker@4.0.1",
+  "_inCache": true,
+  "_location": "/nativescript-imagepicker",
+  "_nodeVersion": "6.10.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nativescript-imagepicker-4.0.1.tgz_1508939406686_0.6399101184215397"
+  },
+  "_npmUser": {
+    "name": "veselina.radeva",
+    "email": "veselina.radeva@progress.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-imagepicker@~4.0.1",
+    "scope": null,
+    "escapedName": "nativescript-imagepicker",
+    "name": "nativescript-imagepicker",
+    "rawSpec": "~4.0.1",
+    "spec": ">=4.0.1 <4.1.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/tns-template-master-detail-ng"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-imagepicker/-/nativescript-imagepicker-4.0.1.tgz",
+  "_shasum": "61fe83d8cbe271199e7d546b7a55c7649d864883",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-imagepicker@~4.0.1",
+  "_where": "C:\\Workspace\\digihack\\picturebank\\node_modules\\tns-template-master-detail-ng",
+  "author": {
+    "name": "NativeScript Team"
+  },
+  "bootstrapper": "nativescript-plugin-seed",
+  "bugs": {
+    "url": "https://github.com/NativeScript/nativescript-imagepicker/issues"
+  },
+  "dependencies": {
+    "nativescript-permissions": "~1.2.3",
+    "nativescript-pro-ui": "^3.1.2"
+  },
+  "description": "A plugin for the NativeScript framework implementing multiple image picker",
+  "devDependencies": {
+    "tns-core-modules": "^3.1.0",
+    "tns-platform-declarations": "^3.0.0",
+    "tslint": "~5.4.3",
+    "typescript": "~2.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "61fe83d8cbe271199e7d546b7a55c7649d864883",
+    "tarball": "https://registry.npmjs.org/nativescript-imagepicker/-/nativescript-imagepicker-4.0.1.tgz"
+  },
+  "homepage": "https://github.com/NativeScript/nativescript-imagepicker",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS"
+  ],
+  "license": "Apache-2.0",
+  "main": "imagepicker",
+  "maintainers": [
+    {
+      "name": "panayot.cankov",
+      "email": "panayot.cankov@telerik.com"
+    },
+    {
+      "name": "tns-bot",
+      "email": "nativescript@telerik.com"
+    }
+  ],
+  "name": "nativescript-imagepicker",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0",
+      "ios": "3.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/nativescript-imagepicker.git"
+  },
+  "scripts": {
+    "build": "npm i && tsc",
+    "ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**'",
+    "clean": "rm -rf node_modules && cd ../demo && rm -rf hooks node_modules platforms && cd ../src && npm run plugin.link",
+    "demo.android": "npm i && npm run tsc && cd ../demo && tns run android --syncAllFiles",
+    "demo.ios": "npm i && npm run tsc && cd ../demo && tns run ios --syncAllFiles",
+    "ngc": "node --max-old-space-size=8192 ./node_modules/.bin/ngc",
+    "plugin.link": "npm link && cd ../demo && npm link nativescript-imagepicker && cd ../demo-angular && npm link nativescript-imagepicker",
+    "plugin.tscwatch": "npm run tsc -- -w",
+    "postclone": "npm i && node scripts/postclone.js && cd ../demo && npm i && cd ../src && npm run plugin.link",
+    "prepublishOnly": "npm run build",
+    "test.android": "npm i && npm run tsc && npm run tslint && cd ../demo && tns build android && tns test android --justlaunch && cd ../demo-angular && tns build android && tns test android --justlaunch",
+    "test.ios": "npm i && npm run tsc && npm run tslint && cd ../demo && tns build ios && tns test ios --justlaunch",
+    "tsc": "tsc -skipLibCheck",
+    "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude \"**/node_modules/**\""
+  },
+  "typings": "index.d.ts",
+  "version": "4.0.1"
+}

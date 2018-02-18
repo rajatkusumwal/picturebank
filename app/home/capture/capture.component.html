@@ -1,0 +1,75 @@
+<ActionBar class="action-bar" style="background: white">
+    <!-- Should remove the navigation button -->
+    <NavigationButton android.systemIcon="ic_menu_back" (tap)="onBackButtonTap()">
+    </NavigationButton>
+    <Image height="100px" src="~/images/logo.png" class="action-image"></Image>
+</ActionBar>
+
+
+<GridLayout class="page page-content">
+    <!-- <Image [src]="imageTaken" flexGrow="3" class="p-15 img-rounded"></Image> 
+
+    <ScrollView>
+        
+        <GridLayout rows="auto, auto, auto">
+            <Image [src]="imageTaken" stretch="aspectFill" height="200" class="m-b-15" decodeHeight="200"></Image>
+        </GridLayout>
+
+        <ListView [items]="keywords" class="list-group">
+                <ng-template let-country="item" let-i="index" let-odd="odd" let-even="even">
+                    <GridLayout class="list-group-item">
+                        <Label [text]="country.value"></Label>
+                    </GridLayout>
+                </ng-template>
+        </ListView>
+    </ScrollView>-->
+
+
+
+
+    <GridLayout columns="*,*,*" rows="*, *, *">
+        <Image row="0" col="0" colSpan="3" [src]="imageTaken" stretch="aspectFill" height="200" class="m-b-15" decodeHeight="200"></Image>
+
+        <ListView row="1" col="0" colSpan="3" rowSpan="2" [items]="items" (itemTap)="onItemTap($event) " class="list-group">
+            <ng-template let-country="item" let-i="index" let-odd="odd" let-even="even">
+                <GridLayout rows="*, *, *" columns="*, *" class="list-group-item-content">
+                    <Label [text]="country.name" class="text-primary font-weight-bold"></Label>
+                    <Label col="1" horizontalAlignment="right" class="list-group-item-text m-r-5">
+                        <FormattedString>
+                                <Span text="Rs-"></Span>
+                                <Span [text]="country.price"></Span>
+                        </FormattedString>
+                    </Label>
+
+                    <StackLayout row="1" class="hr-light m-t-5 m-b-5" colSpan="2"></StackLayout>
+
+                    <Image row="2" [src]="country.imageUrl" stretch="aspectFill" height="120" class="m-r-20" decodeHeight="120"></Image>
+
+                    <StackLayout row="2" col="1" verticalAlignment="center" class="list-group-item-text">
+                        <Label class="p-b-10">
+                            <!-- set fontFamily="system" to workaround "Service exited due to Segmentation fault: 11" error -->
+                            <FormattedString ios:fontFamily="system">
+                                    <Span text="Keyword - "  class="text-primary"></Span>
+                                    <Span [text]="country.keyword"></Span>
+                            </FormattedString>
+                        </Label>
+                        <Label class="p-b-10">
+                            <!-- set fontFamily="system" to workaround "Service exited due to Segmentation fault: 11" error -->
+                            <FormattedString ios:fontFamily="system">
+                                <Span text="Ad:   " class="fa text-primary"></Span>
+                                <Span text="Ebay"></Span>
+                            </FormattedString>
+                        </Label>
+                    </StackLayout>
+                </GridLayout>
+            </ng-template>
+        </ListView>
+    </GridLayout>
+
+
+
+
+
+    <ActivityIndicator style="height:100px" [busy]="isLoading"></ActivityIndicator>
+
+</GridLayout>-->

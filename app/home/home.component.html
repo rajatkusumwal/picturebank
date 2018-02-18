@@ -1,0 +1,16 @@
+<ActionBar class="action-bar" style="background: white">
+    <!-- Should remove the navigation button -->
+    <NavigationButton ios:visibility="collapsed"></NavigationButton>
+    <Image height="100px" src="~/images/logo.png" class="action-image"></Image>
+</ActionBar>
+
+
+<GridLayout class="page page-content" backgroundColor="#F7A521">
+
+    <GridLayout columns="*, *, *" rows="*, *, *" width="230" height="400">
+        <Button style="border-radius: 35px;" row="0" col="0" colSpan="3" text="Capture your Dreams & Desires" (tap)="onButtonTap('desire')" backgroundColor="#5D83B4"></Button>
+        <Image  row="1" col="0" colSpan="3" height="150px" src="~/images/camera.png" class="action-image"></Image>
+        <Button style="border-radius: 35px;" row="2" col="0" colSpan="3" text="Shoot to Pay Him/Her" (tap)="onButtonTap('pay')" backgroundColor="#5D83B4"></Button>
+    </GridLayout>
+
+</GridLayout>

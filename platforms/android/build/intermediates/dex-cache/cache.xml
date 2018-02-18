@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\2c2455c8c57d9dac60ea477a0776fbc7755b9f50\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4df8aad66215f497722e05820383f9ff04796fea">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_d9408e11f83800a21893698a7c283827a6fa1741.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\2401a8deb4c0477a50b05d2fdb3596cad73e18c8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ae411cd0dd58ad905486a0bc7931ec5adf3a2d13">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_f55c818eb00980d0cf1d5c6ad0e7819b98a4e5a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\67095c4ad560366563b18478664b003c9eb9e32a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0eed9e468431f447bf63f3a0cee23418e8994411">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_6f690618cf1a33acf3fa1020dd61bf56ec5772ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\94a3184062a0967469f6495e5372752bbaeb6b0f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="556dc4e7734c7445d7310a625fad89c5be6728b2">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_99ff3d3e1789f3cc7982720e44d7530509a778ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\9ec1f6a47030867ba8d34c070d8a37a0075af9c7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="21ece50b870a8bea45608a6748ad60112d5d9ed1">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_859d62a1c78b57e959b334f7f2f18671bcdaf4a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\96a72ae0a45507204557f07849ab47096a40974f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="16dfa5cc51cd9a9e2809e48ceb26724a29861fdd">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_86eda1c45a55075fde2d889d4df7346c45181e82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\0f96328d19f904d0cecb98c7244fd351c6983191\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ce22401852bd9e460265a9a1567f7cedb6fc91b9">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_099c4482329e5a66d4fdf1b7f1095fdbd727dac0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\1c3ba67c5d1047bbd8fd484290b4b6566fe38592\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9ffa5b2e37c626bd25cfbff4df099cdf068595f9">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_11781ebe240cff323047bc322ea262b40dc079b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\8e3e49c39659f7b7ee89f0e787edd8ae510e6e04\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_c7351a73e7d0beedc8fd695b33d97552be4c9271.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\0feb7c0054ea6bff281eebae984f91fb2909b55d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_d594e08af0700ba346248bf54e3a3366ee0aa3b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rajat\.android\build-cache\641b9a02d4e04eedb2241c541a269d85b90b7e0c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fe66404378d7791a232cc3331811b2ce402f44c7">
+        <dex dex="C:\Workspace\digihack\picturebank\platforms\android\app\build\intermediates\pre-dexed\F0F1F2\debug\classes_1aca8dfc0750453e41640505fa5eccd0d46ffed4.jar" />
+    </item>
+
+</items>

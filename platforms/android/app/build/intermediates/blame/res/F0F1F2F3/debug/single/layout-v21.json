@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Workspace\\digihack\\picturebank\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Rajat\\.android\\build-cache\\dc51e18c244ae7340868f878f106c54878caf516\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Workspace\\digihack\\picturebank\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Rajat\\.android\\build-cache\\dc51e18c244ae7340868f878f106c54878caf516\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Workspace\\digihack\\picturebank\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Rajat\\.android\\build-cache\\dc51e18c244ae7340868f878f106c54878caf516\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Workspace\\digihack\\picturebank\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Rajat\\.android\\build-cache\\dc51e18c244ae7340868f878f106c54878caf516\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

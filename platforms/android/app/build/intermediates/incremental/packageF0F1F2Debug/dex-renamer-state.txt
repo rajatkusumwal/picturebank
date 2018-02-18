@@ -1,0 +1,4 @@
+#Fri Feb 16 19:03:32 IST 2018
+base.0=C\:\\Workspace\\digihack\\picturebank\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\F0F1F2\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Workspace\\digihack\\picturebank\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\F0F1F2\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -1,0 +1,17 @@
+<ActionBar class="action-bar" style="background: white">
+        <!-- Should remove the navigation button -->
+        <NavigationButton android.systemIcon="ic_menu_back" (tap)="onBackButtonTap()">
+        </NavigationButton>
+        <Image height="100px" src="~/images/logo.png" class="action-image"></Image>
+</ActionBar>
+
+<GridLayout class="page page-content">
+        
+                
+        <GridLayout rows="* 150">
+                <WebView row="0" #myWebView [src]="webViewSrc" class="input input-border m-t-0"></WebView>
+                <Image row="1" height="150px" src="~/images/loan.jpg" class="action-image"></Image>
+        </GridLayout>
+        
+
+</GridLayout>

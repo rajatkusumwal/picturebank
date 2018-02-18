@@ -1,0 +1,43 @@
+<ActionBar class="action-bar" style="background: white">
+    <!-- Should remove the navigation button -->
+    <NavigationButton android.systemIcon="ic_menu_back" (tap)="onBackButtonTap()">
+    </NavigationButton>
+    <Image height="100px" src="~/images/logo.png" class="action-image"></Image>
+</ActionBar>
+
+<GridLayout rows="400, *, *">
+    <Image row="0" [src]="imageTaken" stretch="aspectFill" height="400" decodeHeight="400"></Image>
+
+    <GridLayout row="1" columns="100,*,50">
+        <StackLayout row="0" col="1" verticalAlignment="center" class="list-group-item-text">
+            <Label>
+                <!-- set fontFamily="system" to workaround "Service exited due to Segmentation fault: 11" error -->
+                <FormattedString ios:fontFamily="system">
+                    <Span text="Name - " class="text-primary"></Span>
+                    <Span [text]="person.name"></Span>
+                </FormattedString>
+            </Label>
+            <Label>
+                <!-- set fontFamily="system" to workaround "Service exited due to Segmentation fault: 11" error -->
+                <FormattedString ios:fontFamily="system">
+                    <Span text="UID - " class="text-primary"></Span>
+                    <Span [text]="person.uid"></Span>
+                </FormattedString>
+            </Label>
+            <Label>
+                <!-- set fontFamily="system" to workaround "Service exited due to Segmentation fault: 11" error -->
+                <FormattedString ios:fontFamily="system">
+                    <Span text="Act No. - " class="text-primary"></Span>
+                    <Span [text]="person.actno"></Span>
+                </FormattedString>
+            </Label>
+        </StackLayout>
+    </GridLayout>
+
+    <GridLayout row="2" columns="200,*">
+            <TextField  col="0" hint="Enter Amount in INR" [text]="textValue" verticalAlignment="center" class="input input-border m-t-0"></TextField>
+            <Image col="1" src="~/images/pay.jpg" class="action-image"></Image>
+    </GridLayout>
+
+    <ActivityIndicator style="height:100px" [busy]="isLoading"></ActivityIndicator>
+</GridLayout>
